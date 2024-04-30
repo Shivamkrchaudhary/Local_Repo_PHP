@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Validation</title>
+</head>
+<body>
+
+<form method="post" action="">
+    <label for="userType">Select User Type:</label>
+    <select name="userType" id="userType">
+        <option value="PA">PA</option>
+        <option value="ST">ST</option>
+        <option value="SA">SA</option>
+        <option value="FA">FA</option>
+        <option value="AD">AD</option>
+    </select>
+
+    <br>
+
+    User ID: <label for="userId">Enter User ID:</label>
+    <input type="text" name="userId" id="userId" maxlength="8">
+
+    <br>
+
+    <input type="submit" name="validate" value="Validate">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+#include <iostream>the 
+
+using namespace std;
+
+void printEvaluation(int value) {
+    if (value < 100) {
+        cout << "Not enough, keep going!" << endl;
+    } else if (value >= 100 && value < 200) {
+        cout << "Better!" << endl;
+    } else if (value >= 200) {
+        cout << "Best!" << endl;
+    }
+}
+
+int main() {
+    int inputValue;
+    cout << "Enter a value: ";
+    cin >> inputValue;
+
+    printEvaluation(inputValue);
+
+    return 0;
+}
+
+
+
+
+
+
